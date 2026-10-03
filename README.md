@@ -55,25 +55,13 @@ L'agent reçoit les informations disponibles sur l'alerte et produit une analyse
 **Analyse générée**
 
 RESUME
-
-    ↓
-    
-    
+   |
 COMPORTEMENT
 
-    ↓
-    
-    
 RISQUE
-
-    ↓
-    
-    
+   
 INDICATEURS
 
-    ↓
-    
-    
 RECOMMANDATIONS
 
 
