@@ -187,24 +187,25 @@ Afficher   Analyser
        
 
 ## 🛠️ Technologies utilisées
- **Python**
+ - **Python**
 
- **Pandas**
+ - **Pandas**
 
- **PostgreSQL**
+ - **PostgreSQL**
 
- **SQL**
+ - **SQL**
 
- **psycopg2**
+ - **psycopg2**
 
- **Groq API**
+ - **Groq API**
 
- **LLM openai/gpt-oss-20b**
+ - **LLM openai/gpt-oss-20b**
 
- **Streamlit**
+ - **Streamlit**
 
 
 **Données**
+
 Logs de sécurité synthétiques
 
 Génération de scénarios d'incidents contrôlés
