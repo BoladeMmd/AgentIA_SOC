@@ -145,6 +145,7 @@ recommendations,
 created_at.
 
 Une relation est établie entre les **alertes** et leurs **analyses** grâce à **alert_id.**
+
 Les données ont été générées de façon synthetiques et controlés.
 
 
@@ -269,9 +270,12 @@ Une exécution typique du projet suit ce processus :
 
 Le générateur de données permet de simuler différents comportements :
 
-**BRUTE_FORCE**
-**PORT_SCAN**
-**UNUSUAL_LOGIN**
+**BRUTE_FORCE**,
+
+**PORT_SCAN**,
+
+**UNUSUAL_LOGIN**,
+
 **SUSPICIOUS_ACTIVITY**
 
 Ces scénarios permettent de tester le pipeline de détection sans utiliser de données de sécurité réelles.
