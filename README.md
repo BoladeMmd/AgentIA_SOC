@@ -76,13 +76,21 @@ Le projet utilise **PostgreSQL** pour centraliser les données.
 Contient les événements de sécurité :
 
 event_id
+
 timestamp
+
 source_ip
+
 destination_ip
+
 username
+
 event_type
+
 status
+
 port
+
 scenario
 
 **alerts**
@@ -90,19 +98,33 @@ scenario
 Contient les alertes générées par le moteur de détection :
 
 alert_id
+
 alert_type
+
 severity
+
 source_ip
+
 destination_ip
+
 username
+
 description
+
 failed_attempts
+
 unique_ports
+
 unique_destinations
+
 first_seen
+
 last_seen
+
 risk_score
+
 status
+
 detected_at
 
 **incident_analysis**
@@ -110,12 +132,19 @@ detected_at
 Contient les analyses générées par l'IA :
 
 analysis_id
+
 alert_id
+
 summary
+
 behavior_analysis
+
 risk_level
+
 indicators
+
 recommendations
+
 created_at
 
 Une relation est établie entre les **alertes** et leurs **analyses** grâce à **alert_id.**
