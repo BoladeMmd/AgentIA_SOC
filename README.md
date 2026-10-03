@@ -67,6 +67,75 @@ L'analyse permet notamment de fournir :
 
 Les **recommandations** sont présentées comme des mesures à valider par **l'analyste SOC** avant toute exécution.
 
+## 🗄️ Base de données
+
+Le projet utilise **PostgreSQL** pour centraliser les données.
+
+**security_logs**
+
+Contient les événements de sécurité :
+
+event_id
+timestamp
+source_ip
+destination_ip
+username
+event_type
+status
+port
+scenario
+
+**alerts**
+
+Contient les alertes générées par le moteur de détection :
+
+alert_id
+alert_type
+severity
+source_ip
+destination_ip
+username
+description
+failed_attempts
+unique_ports
+unique_destinations
+first_seen
+last_seen
+risk_score
+status
+detected_at
+
+**incident_analysis**
+
+Contient les analyses générées par l'IA :
+
+analysis_id
+alert_id
+summary
+behavior_analysis
+risk_level
+indicators
+recommendations
+created_at
+
+Une relation est établie entre les **alertes** et leurs **analyses** grâce à **alert_id.**
+
+
+## 🖥️ Dashboard Streamlit
+
+Le projet dispose d'une interface web développée avec Streamlit.
+
+Le dashboard permet de :
+
+- consulter les alertes récentes ;
+- filtrer les alertes par sévérité ;
+- filtrer par type d'alerte ;
+- filtrer par statut ;
+- rechercher une IP source ;
+- consulter les détails d'un incident ;
+- consulter l'analyse produite par l'IA ;
+- demander une nouvelle analyse IA lorsqu'elle n'existe pas encore.
+
 
 
 
