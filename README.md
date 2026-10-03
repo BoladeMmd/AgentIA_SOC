@@ -164,6 +164,53 @@ Le dashboard permet de :
 
 
 
+## Exemple de workflow
+
+Sélection d'une alerte
+        │
+        ▼
+Vérification de l'analyse IA
+        │
+   ┌────┴────┐
+   │         │
+Existe     Absente
+   │         │
+   ▼         ▼
+Afficher   Analyser
+            avec IA
+               │
+               ▼
+          Groq API
+               │
+               ▼
+       PostgreSQL
+       
+
+## 🛠️ Technologies utilisées
+ **Python**
+
+ **Pandas**
+
+ **PostgreSQL**
+
+ **SQL**
+
+ **psycopg2**
+
+ **Groq API**
+
+ **LLM openai/gpt-oss-20b**
+
+ **Streamlit**
+
+
+**Données**
+Logs de sécurité synthétiques
+
+Génération de scénarios d'incidents contrôlés
+
+
+
 
 
 
