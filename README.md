@@ -252,7 +252,81 @@ Puis créer les tables nécessaires au projet :
 
 Les informations de connexion PostgreSQL doivent être adaptées à votre environnement local.
 
+## ▶️ Utilisation
 
+**Générer les logs**
+
+python utils/log_generator.py
+
+**Charger les logs dans PostgreSQL**
+
+python database/load_logs.py
+
+**Lancer la détection des menaces**
+
+python agents/threat_detector.py
+
+**Lancer le dashboard**
+
+streamlit run app/app.py
+
+Le dashboard sera ensuite accessible depuis votre navigateur.
+
+
+## 🔄 Pipeline complet
+
+Une exécution typique du projet suit ce processus :
+
+
+<img width="251" height="278" alt="exempleagentia" src="https://github.com/user-attachments/assets/e417e56d-b56b-4c67-9ae8-4d3c221d25eb" />
+
+
+
+## 📊 Exemple de scénarios détectés
+
+Le générateur de données permet de simuler différents comportements :
+
+**BRUTE_FORCE**
+**PORT_SCAN**
+**UNUSUAL_LOGIN**
+**SUSPICIOUS_ACTIVITY**
+
+Ces scénarios permettent de tester le pipeline de détection sans utiliser de données de sécurité réelles.
+
+## 🔒 Sécurité et limites
+
+Ce projet est un prototype à vocation pédagogique et expérimentale.
+
+Il présente plusieurs limites :
+
+les données utilisées sont synthétiques ;
+les règles de détection sont déterministes ;
+les seuils de détection sont définis manuellement ;
+le système ne remplace pas un SIEM ou un SOC professionnel ;
+l'analyse IA dépend du modèle utilisé ;
+aucune action offensive ou destructive n'est exécutée automatiquement.
+
+Les recommandations générées par l'IA doivent être analysées et validées par un professionnel de la sécurité avant toute mise en œuvre.
+
+
+## 🚀 Perspectives d'amélioration
+
+Plusieurs évolutions sont envisageables :
+
+ingestion de logs en temps réel ;
+connexion à des sources de logs réelles ;
+intégration avec Kafka ;
+ajout d'un SIEM ;
+détection basée sur le Machine Learning ;
+amélioration du scoring des risques.
+
+
+
+
+## 👤 Auteur
+
+**Boladé MAMADOU**
+**Ingénieur de données et intelligence artificielle.**
 
 
 
