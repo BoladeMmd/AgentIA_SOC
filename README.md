@@ -50,8 +50,29 @@ Détection d'une concentration importante de tentatives échouées provenant d'u
 **🤖 Analyse des incidents avec l'IA**
 
 Après détection, les alertes peuvent être analysées par un modèle de langage via la Groq API.
-
 L'agent reçoit les informations disponibles sur l'alerte et produit une analyse structurée en français.
+
+**Analyse générée**
+
+RESUME
+    ↓
+COMPORTEMENT
+    ↓
+RISQUE
+    ↓
+INDICATEURS
+    ↓
+RECOMMANDATIONS
+
+L'analyse permet notamment de fournir :
+
+- un résumé de l'incident ;
+- une description du comportement observé ;
+- un niveau de risque ;
+- les principaux indicateurs ;
+- des recommandations de réponse.
+
+Les **recommandations** sont présentées comme des mesures à valider par **l'analyste SOC** avant toute exécution.
 
 
 
