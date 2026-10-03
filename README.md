@@ -72,7 +72,6 @@ Les **recommandations** sont présentées comme des mesures à valider par **l'a
 Le projet utilise **PostgreSQL** pour centraliser les données.
 
 ***security_logs**
-
 Contient les événements de sécurité :
 
 event_id,
@@ -94,7 +93,6 @@ port,
 scenario.
 
 ***alerts**
-
 Contient les alertes générées par le moteur de détection :
 
 alert_id,
@@ -128,7 +126,6 @@ status,
 detected_at.
 
 ***incident_analysis**
-
 Contient les analyses générées par l'IA :
 
 analysis_id,
