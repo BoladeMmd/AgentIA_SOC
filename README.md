@@ -10,12 +10,12 @@ Le projet combine Data Engineering, détection basée sur des règles et Intelli
 
 L'objectif est de concevoir un système capable de :
 
--générer et exploiter des logs de sécurité ;
--centraliser les événements dans une base PostgreSQL ;
--détecter automatiquement certains comportements suspects ;
--générer des alertes avec un niveau de risque ;
--transmettre les alertes à un modèle d'IA pour faciliter leur analyse ;
--enregistrer les analyses produites ;
--présenter les incidents dans un dashboard interactif.
+- générer et exploiter des logs de sécurité ;
+- centraliser les événements dans une base PostgreSQL ;
+- détecter automatiquement certains comportements suspects ;
+- générer des alertes avec un niveau de risque ;
+- transmettre les alertes à un modèle d'IA pour faciliter leur analyse ;
+- enregistrer les analyses produites ;
+- présenter les incidents dans un dashboard interactif.
 
 Le projet cherche principalement à explorer comment **l'IA générative** peut assister un **analyste SOC** dans la compréhension et la qualification d'incidents, sans automatiser d'actions offensives ou destructrices.
