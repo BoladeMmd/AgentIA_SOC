@@ -57,14 +57,18 @@ L'agent reçoit les informations disponibles sur l'alerte et produit une analyse
 RESUME
     ↓
     
+    
 COMPORTEMENT
     ↓
+    
     
 RISQUE
     ↓
     
+    
 INDICATEURS
     ↓
+    
     
 RECOMMANDATIONS
 
