@@ -9,7 +9,7 @@ import pandas as pd
 DB_CONFIG = {
     "dbname": "ai_soc",
     "user": "postgres",
-    "password": "passer",
+    "password": "****",
     "host": "localhost",
     "port": "5432"
 }
