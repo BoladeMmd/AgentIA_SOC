@@ -226,6 +226,8 @@ cd ai-soc-agent
 Avec Conda :
 ```bash
 conda create -n ai_soc python=3.11
+```
+```bash
 conda activate ai_soc
 ```
 
@@ -233,15 +235,7 @@ conda activate ai_soc
 ```bash
 pip install -r requirements.txt
 ```
-**🔐 Configuration**
 
-Créer un fichier .env à la racine du projet :
-
-GROQ_API_KEY=your_groq_api_key
-
-**⚠️ Ne jamais publier le fichier .env sur GitHub.**
-
-Le projet utilise .env.example pour indiquer les variables nécessaires sans exposer les informations sensibles.
 
 
 ## 🗄️ Configuration PostgreSQL
