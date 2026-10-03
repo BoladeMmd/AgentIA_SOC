@@ -25,7 +25,7 @@ MODEL = "openai/gpt-oss-20b"
 DB_CONFIG = {
     "dbname": "ai_soc",
     "user": "postgres",
-    "password": "passer",
+    "password": "****",
     "host": "localhost",
     "port": "5432"
 }
