@@ -71,81 +71,81 @@ Les **recommandations** sont présentées comme des mesures à valider par **l'a
 
 Le projet utilise **PostgreSQL** pour centraliser les données.
 
-* **security_logs**
+***security_logs**
 
 Contient les événements de sécurité :
 
-event_id
+event_id,
 
-timestamp
+timestamp,
 
-source_ip
+source_ip,
 
-destination_ip
+destination_ip,
 
-username
+username,
 
-event_type
+event_type,
 
-status
+status,
 
-port
+port,
 
-scenario
+scenario.
 
-**alerts**
+***alerts**
 
 Contient les alertes générées par le moteur de détection :
 
-alert_id
+alert_id,
 
-alert_type
+alert_type,
 
-severity
+severity,
 
-source_ip
+source_ip,
 
-destination_ip
+destination_ip,
 
-username
+username,
 
-description
+description,
 
-failed_attempts
+failed_attempts,
 
-unique_ports
+unique_ports,
 
-unique_destinations
+unique_destinations,
 
-first_seen
+first_seen,
 
-last_seen
+last_seen,
 
-risk_score
+risk_score,
 
-status
+status,
 
-detected_at
+detected_at.
 
-**incident_analysis**
+***incident_analysis**
 
 Contient les analyses générées par l'IA :
 
-analysis_id
+analysis_id,
 
-alert_id
+alert_id,
 
-summary
+summary,
 
-behavior_analysis
+behavior_analysis,
 
-risk_level
+risk_level,
 
-indicators
+indicators,
 
-recommendations
+recommendations,
 
-created_at
+created_at.
 
 Une relation est établie entre les **alertes** et leurs **analyses** grâce à **alert_id.**
 
