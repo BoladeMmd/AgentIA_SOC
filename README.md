@@ -71,7 +71,7 @@ Les **recommandations** sont présentées comme des mesures à valider par **l'a
 
 Le projet utilise **PostgreSQL** pour centraliser les données.
 
-**security_logs**
+* **security_logs**
 
 Contient les événements de sécurité :
 
