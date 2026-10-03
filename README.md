@@ -288,7 +288,9 @@ Ces scénarios permettent de tester le pipeline de détection sans utiliser de d
 <img width="938" height="415" alt="agant1" src="https://github.com/user-attachments/assets/98dcb5a2-3838-4c59-91eb-01d5c0b376c1" />
 
 
+
 **IMAGE 2** : Informations sur l'alerte numéro 1 
+
 
 <img width="956" height="419" alt="AGENT2" src="https://github.com/user-attachments/assets/526c3a17-f8a6-4d95-94a8-f70b3e7aba4c" />
 
@@ -297,7 +299,9 @@ Ces scénarios permettent de tester le pipeline de détection sans utiliser de d
 
 
 
+
 **IMAGE 3**: Recommandations sur l'alerte 
+
 
 <img width="954" height="236" alt="AGENT4" src="https://github.com/user-attachments/assets/bb90b1a8-fdc4-4940-bfe9-2b43a1d966f4" />
 
