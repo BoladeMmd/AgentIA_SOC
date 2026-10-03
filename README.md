@@ -145,6 +145,7 @@ recommendations,
 created_at.
 
 Une relation est établie entre les **alertes** et leurs **analyses** grâce à **alert_id.**
+Les données ont été générées de façon synthetiques et controlés.
 
 
 ## 🖥️ Dashboard Streamlit
@@ -204,11 +205,48 @@ Afficher   Analyser
  - **Streamlit**
 
 
-**Données**
+## 📁 Structure du projet
 
-Logs de sécurité synthétiques
 
-Génération de scénarios d'incidents contrôlés
+
+
+
+## ⚙️ Installation
+
+**1. Cloner le dépôt**
+git clone https://github.com/VOTRE_USERNAME/ai-soc-agent.git
+cd ai-soc-agent
+2. Créer l'environnement Python
+
+Avec Conda :
+
+conda create -n ai_soc python=3.11
+conda activate ai_soc
+3. Installer les dépendances
+pip install -r requirements.txt
+🔐 Configuration
+
+Créer un fichier .env à la racine du projet :
+
+GROQ_API_KEY=your_groq_api_key
+
+⚠️ Ne jamais publier le fichier .env sur GitHub.
+
+Le projet utilise .env.example pour indiquer les variables nécessaires sans exposer les informations sensibles.
+
+🗄️ Configuration PostgreSQL
+
+Créer une base de données :
+
+CREATE DATABASE ai_soc;
+
+Puis créer les tables nécessaires au projet :
+
+security_logs
+alerts
+incident_analysis
+
+Les informations de connexion PostgreSQL doivent être adaptées à votre environnement local.
 
 
 
