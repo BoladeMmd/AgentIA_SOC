@@ -167,26 +167,9 @@ Le dashboard permet de :
 
 ## Exemple de workflow
 
-Sélection d'une alerte
-        │
-        ▼
-Vérification de l'analyse IA
-        │
-   ┌────┴────┐
-   │         │
-Existe     Absente
-   │         │
-   ▼         ▼
-Afficher   Analyser
-            avec IA
-               │
-               ▼
-          Groq API
-               │
-               ▼
-       PostgreSQL
-       
+<img width="285" height="284" alt="agent5" src="https://github.com/user-attachments/assets/854b66a3-a8c1-4f6c-bb48-7c5b41ec880f" />
 
+       
 ## 🛠️ Technologies utilisées
  - **Python**
 
@@ -293,18 +276,6 @@ Le générateur de données permet de simuler différents comportements :
 
 Ces scénarios permettent de tester le pipeline de détection sans utiliser de données de sécurité réelles.
 
-## 🔒 Sécurité et limites
-
-Ce projet est un prototype à vocation pédagogique et expérimentale.
-
-Il présente plusieurs limites :
-
-les données utilisées sont synthétiques ;
-les règles de détection sont déterministes ;
-les seuils de détection sont définis manuellement ;
-le système ne remplace pas un SIEM ou un SOC professionnel ;
-l'analyse IA dépend du modèle utilisé ;
-aucune action offensive ou destructive n'est exécutée automatiquement.
 
 Les recommandations générées par l'IA doivent être analysées et validées par un professionnel de la sécurité avant toute mise en œuvre.
 
@@ -313,12 +284,12 @@ Les recommandations générées par l'IA doivent être analysées et validées p
 
 Plusieurs évolutions sont envisageables :
 
-ingestion de logs en temps réel ;
-connexion à des sources de logs réelles ;
-intégration avec Kafka ;
-ajout d'un SIEM ;
-détection basée sur le Machine Learning ;
-amélioration du scoring des risques.
+- ingestion de logs en temps réel ;
+- connexion à des sources de logs réelles ;
+- intégration avec Kafka ;
+- ajout d'un SIEM ;
+- détection basée sur le Machine Learning ;
+- amélioration du scoring des risques.
 
 
 
@@ -326,7 +297,12 @@ amélioration du scoring des risques.
 ## 👤 Auteur
 
 **Boladé MAMADOU**
+
 **Ingénieur de données et intelligence artificielle.**
+
+**Mail**: bolademamadou7@gmail.com
+
+**Linkedin**: https://www.linkedin.com/in/bolad%C3%A9-mamadou-a1a91833a/?isSelfProfile=true
 
 
 
